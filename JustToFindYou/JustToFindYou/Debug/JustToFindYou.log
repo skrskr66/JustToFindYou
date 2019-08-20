@@ -1,0 +1,42 @@
+﻿生成启动时间为 2019/8/4 23:53:40。
+     1>项目“F:\vs projects\JustToFindYou\JustToFindYou\JustToFindYou.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\VS studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DataManager.cpp ScanManager.cpp Test.cpp
+         Test.cpp
+     1>f:\vs projects\justtofindyou\justtofindyou\common.h(89): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs studio\vc\include\string.h(168) : 参见“strerror”的声明
+     1>f:\vs projects\justtofindyou\justtofindyou\common.h(247): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+         正在编译...
+         ScanManager.cpp
+     1>f:\vs projects\justtofindyou\justtofindyou\common.h(89): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs studio\vc\include\string.h(168) : 参见“strerror”的声明
+     1>f:\vs projects\justtofindyou\justtofindyou\common.h(247): warning C4018: “<”: 有符号/无符号不匹配
+         DataManager.cpp
+     1>f:\vs projects\justtofindyou\justtofindyou\common.h(89): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs studio\vc\include\string.h(168) : 参见“strerror”的声明
+     1>f:\vs projects\justtofindyou\justtofindyou\common.h(247): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\vs projects\justtofindyou\justtofindyou\datamanager.cpp(70): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs studio\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>f:\vs projects\justtofindyou\justtofindyou\datamanager.cpp(77): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs studio\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>f:\vs projects\justtofindyou\justtofindyou\datamanager.cpp(95): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs studio\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>f:\vs projects\justtofindyou\justtofindyou\datamanager.cpp(102): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs studio\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>f:\vs projects\justtofindyou\justtofindyou\datamanager.cpp(109): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs studio\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>f:\vs projects\justtofindyou\justtofindyou\datamanager.cpp(118): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\vs studio\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         正在生成代码...
+       Link:
+         F:\VS studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\vs projects\JustToFindYou\Debug\JustToFindYou.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\vs projects\JustToFindYou\JustToFindYou\sqlite-amalgamation-3280000" sqlite3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\vs projects\JustToFindYou\Debug\JustToFindYou.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\vs projects\JustToFindYou\Debug\JustToFindYou.lib" /MACHINE:X86 Debug\DataManager.obj
+         Debug\ScanManager.obj
+         Debug\Test.obj
+     1>sqlite3.lib(sqlite3.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“sqlite3.lib(sqlite3.obj)”或在“F:\vs projects\JustToFindYou\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         JustToFindYou.vcxproj -> F:\vs projects\JustToFindYou\Debug\JustToFindYou.exe
+     1>已完成生成项目“F:\vs projects\JustToFindYou\JustToFindYou\JustToFindYou.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.27
